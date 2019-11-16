@@ -1,0 +1,11 @@
+.search-filters {
+    background: lightgrey;
+    color: #000;
+    width: 100%;
+    padding: 5px;
+}
+
+.print-type, 
+.book-type {
+    margin: 0 20px;
+}
