@@ -3,9 +3,9 @@ import SearchInput from './SearchInput'
 import SearchFilters from './SearchFilters'
 
 
-function SearchForm() {
+function SearchForm(props) {
     return(
-        <form>
+        <form onSubmit={props.onSubmitForm} className='form'>
             <SearchInput />
             <SearchFilters />
         </form>
