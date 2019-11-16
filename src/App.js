@@ -78,7 +78,7 @@ class App extends React.Component {
         <Header />
         <SearchForm onSubmitForm={this.state.onSubmitForm}/>
         <main>
-        <Results />
+        <Results books={this.state.books}/>
         </main>
       </div>
     );
