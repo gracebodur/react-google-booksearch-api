@@ -11,6 +11,8 @@ class SearchFilters extends React.Component {
                         id='print-type'
                         name='print-type'>
                     <option>All</option>
+                    <option value='ebooks'>E-book</option>
+                    <option value='free-ebooks'>Free E-book</option>
 
                     </select>
                 </div>
@@ -19,9 +21,8 @@ class SearchFilters extends React.Component {
                     <select 
                         id='book-type'
                         name='book-type'>
-                     <option>No Filter</option>
-
-                        
+                    <option value='all'>No Filter</option>
+                    <option value='books'>Books</option>
                     </select>
                 </div>
             </div>
